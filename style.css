@@ -31,3 +31,42 @@ body {
     font-size: 1rem;
     text-align: center;
 }
+
+.reservation {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+.reservation h2 {
+    font-size: 35px;
+    margin: 0px;
+    font-family: "Roboto", serif;
+}
+
+.reservation p {
+    font-size: 20px;
+    color: gray;
+}
+
+.linear-gradient {
+    background: linear-gradient( #FF79DA, #9356DC)
+}
+
+.reservation button {
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    margin: 20PX;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 4px 9px #bebebe;
+    cursor: pointer;
+}
+
+.reservation button:hover {
+    opacity: 0.8;
+    transform: scale(1.03);
+    transition: 0.5S;
+    box-shadow: 4px 4px 9px #6e6e6e;
+}
