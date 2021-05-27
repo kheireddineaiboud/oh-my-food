@@ -70,3 +70,105 @@ body {
     transition: 0.5S;
     box-shadow: 4px 4px 9px #6e6e6e;
 }
+
+.content {
+    width: 100%;
+}
+
+.fonct-title {
+    padding: 10px;
+    font-family: "Roboto", serif;
+}
+
+.content .fonct-btn1 {
+    border: solid 1px #e4e3e3;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative;
+    -webkit-box-shadow: 4px 4px 9px #d9d9d9;
+    box-shadow: 4px 4px 9px #d9d9d9;
+    height: 25px;
+    background-color: rgb(240, 240, 240);
+    animation: slidedown 2s;
+}
+
+.content .fonct-btn1:hover {
+    background-color: #ffe9f9;
+    -webkit-box-shadow: 4px 4px 4px #d9d9d9;
+    box-shadow: 4px 4px 4px #d9d9d9;
+}
+
+@keyframes slidedown {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.content .fonct-btn2 {
+    border: solid 1px #e4e3e3;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative;
+    -webkit-box-shadow: 4px 4px 9px #d9d9d9;
+    box-shadow: 4px 4px 9px #d9d9d9;
+    height: 25px;
+    background-color: rgb(240, 240, 240);
+    animation: slidedown 2s;
+}
+
+.content .fonct-btn2:hover {
+    background-color: #ffe9f9;
+    -webkit-box-shadow: 4px 4px 4px #d9d9d9;
+    box-shadow: 4px 4px 4px #d9d9d9;
+}
+
+.content .fonct-btn3 {
+    border: solid 1px #e4e3e3;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative;
+    -webkit-box-shadow: 4px 4px 9px #d9d9d9;
+    box-shadow: 4px 4px 9px #d9d9d9;
+    height: 25px;
+    background-color: rgb(240, 240, 240);
+    animation: slidedown 2s;
+}
+
+.content .fonct-btn3:hover {
+    background-color: #ffe9f9;
+    -webkit-box-shadow: 4px 4px 4px #d9d9d9;
+    box-shadow: 4px 4px 4px #d9d9d9;
+}
+
+.content .icon {
+    background-color: #9356DC;
+    border-radius: 50%;
+    width: 20px;
+    line-height: 20px;
+    position: absolute;
+    left: -5px;
+    top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 0.6rem;
+    margin-right: 10px;
+}
+
+.content .icons {
+    padding-right: 50px;
+}
