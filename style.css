@@ -413,6 +413,7 @@ footer .footer-a {
     }
     .fonct {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
     }
     .content .fonct-btn1 .fonct-btn2 .fonct-btn3 {
@@ -425,9 +426,5 @@ footer .footer-a {
     }
     .rst-ménil {
         width: 40%;
-    }
-    .footer {
-        display: flex;
-        justify-content: space-around;
     }
 }
