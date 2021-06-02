@@ -4,6 +4,74 @@ body {
     margin: 0px;
 }
 
+.welcom {
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( #FF79DA, #9356DC);
+    font-family: "Shrikhand", serif;
+    font-size: 35px;
+    color: #fff;
+    animation: food 3s forwards linear;
+}
+
+@keyframes food {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 0%;
+        z-index: -1;
+        display: none;
+        opacity: 0;
+    }
+}
+
+.loader {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    position: relative;
+}
+
+.loader-progress {
+    position: relative;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    animation: anim 2s linear infinite;
+}
+
+.loader-progress:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border: 6px solid transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    opacity: 0.6;
+    animation: anim 2s linear infinite;
+}
+
+@keyframes anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .HeaderTitle {
     text-align: center;
     font-family: "Shrikhand", serif;
@@ -217,6 +285,7 @@ a {
     width: 100%;
     height: 200px;
     border-radius: 10% 10% 0% 0%;
+    object-fit: cover;
 }
 
 .carte-title {
@@ -336,4 +405,29 @@ footer .fas.fa-hands-helping {
 footer .footer-a {
     text-decoration: none;
     color: white;
+}
+
+@media all and (min-width: 800px) {
+    .reservation button {
+        width: 350px;
+    }
+    .fonct {
+        display: flex;
+        justify-content: space-around;
+    }
+    .content .fonct-btn1 .fonct-btn2 .fonct-btn3 {
+        width: 350px;
+    }
+    .content-rest {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .rst-ménil {
+        width: 40%;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
 }
