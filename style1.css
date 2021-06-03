@@ -44,3 +44,67 @@ body {
     object-fit: cover;
     position: absolute;
 }
+
+.cont-menu1 {
+    display: flex;
+    flex: 1;
+    position: relative;
+    top: 280px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(247, 247, 247);
+    border-radius: 30px 30px 0px 0px;
+}
+
+.cont-menu1 h1 {
+    font-family: "Shrikhand", serif;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.carte-coeur {
+    border: none;
+    background-color: rgb(247, 247, 247);
+}
+
+.carte-coeur2 {
+    border: none;
+    background-color: rgb(247, 247, 247);
+}
+
+.heart {
+    border: none;
+    text-decoration: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    margin-top: 20px;
+    position: absolute;
+    left: 310px;
+}
+
+.heart2 {
+    border: none;
+    font-size: 1.7rem;
+    color: rgb(196, 84, 196);
+    cursor: pointer;
+    margin-top: 20px;
+    position: absolute;
+    left: 310px;
+    background-color: #f7f7f7;
+}
+
+.carte-coeur :hover {
+    animation: coeur 1s forwards ease-in-out;
+}
+
+@keyframes coeur {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        color: #FF79DA;
+        opacity: 0;
+        height: 0%;
+    }
+}
