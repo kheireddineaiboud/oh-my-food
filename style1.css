@@ -252,3 +252,26 @@ h3 {
     padding: 10px;
     font-size: 0.8rem;
 }
+
+.commander {
+    background: linear-gradient(#FF79DA, #9356DC);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin: 20PX;
+    margin-left: 80px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 9px #bebebe;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.commander:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+    transition: 0.5S;
+    box-shadow: 4px 4px 9px black;
+}
