@@ -108,3 +108,42 @@ body {
         height: 0%;
     }
 }
+
+.mini-cont1 {
+    display: block;
+    width: 300px;
+    padding: 30px;
+    margin-top: 0px;
+    font-family: "Roboto", serif;
+    animation: slidedown 2s;
+}
+
+.mini-cont2 {
+    display: block;
+    width: 300px;
+    padding: 30px;
+    margin-top: 0px;
+    font-family: "Roboto", serif;
+    animation: slidedown 6s;
+}
+
+.mini-cont3 {
+    display: block;
+    width: 300px;
+    padding: 30px;
+    margin-top: 0px;
+    font-family: "Roboto", serif;
+    animation: slidedown 8s;
+}
+
+@keyframes slidedown {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
