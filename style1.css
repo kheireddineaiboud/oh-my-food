@@ -224,3 +224,31 @@ h2 {
     top: 25px;
     right: 20px;
 }
+
+.main:hover>.title {
+    width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.main:hover>.check {
+    display: block;
+    width: 70px;
+    background-color: #99E2D0;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.cont-entrées p {
+    padding: 10px;
+    font-size: 0.8rem;
+}
