@@ -275,3 +275,45 @@ h3 {
     transition: 0.5S;
     box-shadow: 4px 4px 9px black;
 }
+
+footer {
+    background-coloR: #333333;
+    color: white;
+    padding-bottom: 20px;
+    position: relative;
+    top: 260px;
+}
+
+footer .footer-logo {
+    font-family: "Shrikhand", serif;
+    font-size: 1.3rem;
+    padding: 20px 10px 10px 10px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+footer .footer-link {
+    font-family: "Roboto", serif;
+    font-size: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+footer .footer-menu {
+    text-align: left;
+}
+
+footer .fas.fa-utensils {
+    padding-right: 17px;
+}
+
+footer .fas.fa-hands-helping {
+    padding-right: 10px;
+}
+
+footer .footer-a {
+    text-decoration: none;
+    color: white;
+}
