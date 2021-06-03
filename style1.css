@@ -9,3 +9,27 @@ body {
     height: 4.5rem;
     z-index: 30;
 }
+
+.header-lien {
+    width: 100%;
+    height: 100%;
+}
+
+.header-titre {
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: "Shrikhand", serif;
+}
+
+.header-backindex {
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+}
